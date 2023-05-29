@@ -1,0 +1,13 @@
+/* 请根据自己的需求自定义滚动条样式 */
+/* 例如，将滚动条设置为红色 */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: red;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
