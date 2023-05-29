@@ -6,7 +6,7 @@
   <link href="https://xinghan-666.github.io/atom.xml" rel="self"/>
   
   <link href="https://xinghan-666.github.io/"/>
-  <updated>2023-05-25T12:00:37.670Z</updated>
+  <updated>2023-05-29T08:09:31.036Z</updated>
   <id>https://xinghan-666.github.io/</id>
   
   <author>
@@ -17,19 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>优医问诊-用户端 (React)</title>
-    <link href="https://xinghan-666.github.io/2023/05/25/you-yi-wen-zhen/"/>
-    <id>https://xinghan-666.github.io/2023/05/25/you-yi-wen-zhen/</id>
-    <published>2023-05-25T08:45:23.355Z</published>
-    <updated>2023-05-25T12:00:37.670Z</updated>
+    <title>hexo使用文档</title>
+    <link href="https://xinghan-666.github.io/2023/05/29/hexo-shi-yong-wen-dang/"/>
+    <id>https://xinghan-666.github.io/2023/05/29/hexo-shi-yong-wen-dang/</id>
+    <published>2023-05-29T08:08:33.000Z</published>
+    <updated>2023-05-29T08:09:31.036Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;优医问诊是一项创新的医疗项目，旨在为患者提供方便快捷的在线医疗咨询和问诊服务。该项目通过结合先进的技术和医疗资源，为用户提供远程医疗服务，解决了传统医疗中就医难、就医贵的问题。&lt;/p&gt;
-&lt;h1 id=&quot;优医问诊-用户端-React&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;Hexo 框架使用&lt;/p&gt;
+&lt;h2 id=&quot;通过npm来安装Hexo&quot;&gt;&lt;a href=&quot;#通过npm来安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;通过npm来安装Hexo&quot;&gt;&lt;/a&gt;通过npm来安装Hexo&lt;/h2&gt;&lt;pre</summary>
         
       
     
@@ -40,10 +40,10 @@
   
   <entry>
     <title>个人简历</title>
-    <link href="https://xinghan-666.github.io/2023/05/23/ge-ren-jian-li/"/>
-    <id>https://xinghan-666.github.io/2023/05/23/ge-ren-jian-li/</id>
-    <published>2023-05-23T06:50:17.414Z</published>
-    <updated>2023-05-29T06:54:44.273Z</updated>
+    <link href="https://xinghan-666.github.io/2023/05/29/ge-ren-jian-li/"/>
+    <id>https://xinghan-666.github.io/2023/05/29/ge-ren-jian-li/</id>
+    <published>2023-05-29T08:08:06.000Z</published>
+    <updated>2023-05-29T08:16:32.763Z</updated>
     
     
       
@@ -51,7 +51,7 @@
         
         
     <summary type="html">&lt;p&gt;这是作者本人的个人简历&lt;/p&gt;
-&lt;h1 id=&quot;邢瀚&quot;&gt;&lt;a href=&quot;#邢瀚&quot; class=&quot;headerlink&quot; title=&quot;邢瀚&quot;&gt;&lt;/a&gt;邢瀚&lt;/h1&gt;&lt;p&gt;求职意向：web前端&lt;br&gt;性别：男&lt;br&gt;电话：18547162936&lt;br&gt;邮箱：&lt;a</summary>
+&lt;h1 id=&quot;邢瀚&quot;&gt;&lt;a href=&quot;#邢瀚&quot; class=&quot;headerlink&quot; title=&quot;邢瀚&quot;&gt;&lt;/a&gt;邢瀚&lt;/h1&gt;&lt;p&gt;求职意向：web 前端&lt;br&gt;性别：男&lt;br&gt;电话：18547162936&lt;br&gt;邮箱：&lt;a</summary>
         
       
     
@@ -61,18 +61,19 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://xinghan-666.github.io/2023/05/22/hello-world/"/>
-    <id>https://xinghan-666.github.io/2023/05/22/hello-world/</id>
-    <published>2023-05-22T08:15:30.357Z</published>
-    <updated>1985-10-26T08:15:00.000Z</updated>
+    <title>优医问诊-用户端 (React)</title>
+    <link href="https://xinghan-666.github.io/2023/05/29/you-yi-wen-zhen/"/>
+    <id>https://xinghan-666.github.io/2023/05/29/you-yi-wen-zhen/</id>
+    <published>2023-05-29T08:08:06.000Z</published>
+    <updated>2023-05-29T08:10:32.418Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;优医问诊是一项创新的医疗项目，旨在为患者提供方便快捷的在线医疗咨询和问诊服务。该项目通过结合先进的技术和医疗资源，为用户提供远程医疗服务，解决了传统医疗中就医难、就医贵的问题。&lt;/p&gt;
+&lt;h1 id=&quot;优医问诊-用户端-React&quot;&gt;&lt;a</summary>
         
       
     
