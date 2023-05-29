@@ -6,7 +6,7 @@
   <link href="https://xinghan-666.github.io/atom.xml" rel="self"/>
   
   <link href="https://xinghan-666.github.io/"/>
-  <updated>2023-05-29T10:01:39.898Z</updated>
+  <updated>2023-05-29T10:19:36.525Z</updated>
   <id>https://xinghan-666.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://xinghan-666.github.io/2023/05/29/hexo-shi-yong-wen-dang/"/>
     <id>https://xinghan-666.github.io/2023/05/29/hexo-shi-yong-wen-dang/</id>
     <published>2023-05-29T08:08:33.000Z</published>
-    <updated>2023-05-29T10:01:39.898Z</updated>
+    <updated>2023-05-29T10:19:36.525Z</updated>
     
     
       
@@ -36,6 +36,8 @@
     
     
     
+    <category term="Hexo" scheme="https://xinghan-666.github.io/tags/Hexo/"/>
+    
   </entry>
   
   <entry>
@@ -43,7 +45,7 @@
     <link href="https://xinghan-666.github.io/2023/05/29/ge-ren-jian-li/"/>
     <id>https://xinghan-666.github.io/2023/05/29/ge-ren-jian-li/</id>
     <published>2023-05-29T08:08:06.000Z</published>
-    <updated>2023-05-29T10:09:51.855Z</updated>
+    <updated>2023-05-29T10:20:45.114Z</updated>
     
     
       
@@ -58,6 +60,8 @@
     
     
     
+    <category term="简历" scheme="https://xinghan-666.github.io/tags/%E7%AE%80%E5%8E%86/"/>
+    
   </entry>
   
   <entry>
@@ -65,7 +69,7 @@
     <link href="https://xinghan-666.github.io/2023/05/29/you-yi-wen-zhen/"/>
     <id>https://xinghan-666.github.io/2023/05/29/you-yi-wen-zhen/</id>
     <published>2023-05-29T08:08:06.000Z</published>
-    <updated>2023-05-29T10:09:27.441Z</updated>
+    <updated>2023-05-29T10:20:34.856Z</updated>
     
     
       
@@ -79,6 +83,8 @@
     
     
     
+    
+    <category term="React 优医问诊 文档" scheme="https://xinghan-666.github.io/tags/React-%E4%BC%98%E5%8C%BB%E9%97%AE%E8%AF%8A-%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
