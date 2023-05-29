@@ -6,7 +6,7 @@
   <link href="https://xinghan-666.github.io/atom.xml" rel="self"/>
   
   <link href="https://xinghan-666.github.io/"/>
-  <updated>2023-05-29T10:19:36.525Z</updated>
+  <updated>2023-05-29T10:20:45.114Z</updated>
   <id>https://xinghan-666.github.io/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>hexo使用文档</title>
-    <link href="https://xinghan-666.github.io/2023/05/29/hexo-shi-yong-wen-dang/"/>
-    <id>https://xinghan-666.github.io/2023/05/29/hexo-shi-yong-wen-dang/</id>
-    <published>2023-05-29T08:08:33.000Z</published>
-    <updated>2023-05-29T10:19:36.525Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Hexo 框架使用&lt;/p&gt;
-&lt;h2 id=&quot;通过-npm-来安装-Hexo&quot;&gt;&lt;a href=&quot;#通过-npm-来安装-Hexo&quot; class=&quot;headerlink&quot; title=&quot;通过 npm 来安装 Hexo&quot;&gt;&lt;/a&gt;通过 npm 来安装</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Hexo" scheme="https://xinghan-666.github.io/tags/Hexo/"/>
-    
-  </entry>
   
   <entry>
     <title>个人简历</title>
@@ -85,6 +61,30 @@
     
     
     <category term="React 优医问诊 文档" scheme="https://xinghan-666.github.io/tags/React-%E4%BC%98%E5%8C%BB%E9%97%AE%E8%AF%8A-%E6%96%87%E6%A1%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo使用文档</title>
+    <link href="https://xinghan-666.github.io/2022/03/29/hexo-shi-yong-wen-dang/"/>
+    <id>https://xinghan-666.github.io/2022/03/29/hexo-shi-yong-wen-dang/</id>
+    <published>2022-03-29T08:08:33.000Z</published>
+    <updated>2023-05-29T12:42:23.792Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hexo 框架使用&lt;/p&gt;
+&lt;h2 id=&quot;通过-npm-来安装-Hexo&quot;&gt;&lt;a href=&quot;#通过-npm-来安装-Hexo&quot; class=&quot;headerlink&quot; title=&quot;通过 npm 来安装 Hexo&quot;&gt;&lt;/a&gt;通过 npm 来安装</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://xinghan-666.github.io/tags/Hexo/"/>
     
   </entry>
   
