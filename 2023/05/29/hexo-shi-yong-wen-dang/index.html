@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta name="keywords" content="hexo使用文档, 个人博客">
     <meta name="description" content="Hexo 框架使用
-通过npm来安装Hexonpm install -g hexo-cli
+通过 npm 来安装 Hexonpm install -g hexo-cli
 
-创建网站在电脑里新建一个文件夹作为博客的目录，通过Hexo命令初始化并安装。例如这里我将博客目录设置为 hexoblog
-hexo init he">
+创建网站在电脑里新建一个文件夹作为博客的目录，通过 Hexo 命令初始化并安装。例如这里我将博客目录设置为 hexoblog
+hexo in">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -391,14 +391,14 @@ hexo init he">
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    176
+                    793
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -422,9 +422,9 @@ hexo init he">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>Hexo 框架使用</p>
-<h2 id="通过npm来安装Hexo"><a href="#通过npm来安装Hexo" class="headerlink" title="通过npm来安装Hexo"></a>通过npm来安装Hexo</h2><pre class="line-numbers language-none"><code class="language-none">npm install -g hexo-cli<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="通过-npm-来安装-Hexo"><a href="#通过-npm-来安装-Hexo" class="headerlink" title="通过 npm 来安装 Hexo"></a>通过 npm 来安装 Hexo</h2><pre class="line-numbers language-none"><code class="language-none">npm install -g hexo-cli<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h3 id="创建网站"><a href="#创建网站" class="headerlink" title="创建网站"></a>创建网站</h3><p>在电脑里新建一个文件夹作为博客的目录，通过Hexo命令初始化并安装。<br>例如这里我将博客目录设置为 hexoblog</p>
+<h3 id="创建网站"><a href="#创建网站" class="headerlink" title="创建网站"></a>创建网站</h3><p>在电脑里新建一个文件夹作为博客的目录，通过 Hexo 命令初始化并安装。<br>例如这里我将博客目录设置为 hexoblog</p>
 <pre class="line-numbers language-none"><code class="language-none">hexo init hexoblog
 cd hexoblog
 npm install # 这一步也可以不执行，init操作时已经安装了<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
@@ -433,11 +433,50 @@ npm install # 这一步也可以不执行，init操作时已经安装了<span ar
 <pre class="line-numbers language-none"><code class="language-none">hexo server // 简写 hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <h3 id="去官网找一个好看的主题"><a href="#去官网找一个好看的主题" class="headerlink" title="去官网找一个好看的主题"></a>去官网找一个好看的主题</h3><p><a target="_blank" rel="noopener" href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
-<h3 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h3><p>下载<br>在博客的themes目录下执行<br>git clone 主题ssh地址</p>
+<h3 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h3><h4 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h4><p>在博客的 themes 目录下执行<br>git clone 主题 ssh 地址</p>
 <pre class="line-numbers language-none"><code class="language-none">例如：
 git clone git@github.com:smackgg/hexo-theme-smackdown.git<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<p>激活<br>把hexo配置文件 _config.yml 里的 theme 字段内容改为 hexo-theme-smackdown</p>
+<h4 id="激活"><a href="#激活" class="headerlink" title="激活"></a>激活</h4><p>把 hexo 配置文件 _config.yml 里的 theme 字段内容改为 hexo-theme-smackdown</p>
+<h3 id="博客Github部署"><a href="#博客Github部署" class="headerlink" title="博客Github部署"></a>博客Github部署</h3><h4 id="创建储存桶"><a href="#创建储存桶" class="headerlink" title="创建储存桶"></a>创建储存桶</h4><p>新建一个仓库，项目名一定要是用户名.github.io的形式(README.md可选可不选)<br>比如，我的用户名是xinghan-666，则我的仓库名必须是xinghan-666.github.io<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/02.png"></p>
+<h4 id="配置SSH-Key"><a href="#配置SSH-Key" class="headerlink" title="配置SSH-Key"></a>配置SSH-Key</h4><p>没有SSH-Key的话，git是不能将本地的代码部署到GitHub的。所以需要先创建SSH-Key。<br>本地生成秘钥：这里的用户名和邮箱仅做演示，根据自己的修改</p>
+<pre class="line-numbers language-none"><code class="language-none">git config --global user.name "geekmubai"
+git config --global user.email geekmubai@example.com
+ssh-keygen -t rsa -C "youremail@example.com"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>此时在用户文件夹下有一个隐藏文件夹，里面会有相关的秘钥文件。<br>以文本方式打开id_rsa.pub文件，将内容复制到GitHub。<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/04.png"></p>
+<p>标题随便起，将文本内容复制到Key，最后添加Key<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/05.png"></p>
+<h4 id="同步代码"><a href="#同步代码" class="headerlink" title="同步代码"></a>同步代码</h4><p>使用hexo deploy部署需要安装一个插件</p>
+<pre class="line-numbers language-none"><code class="language-none">npm install hexo-deployer-git --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>找到blog目录下的配置文件_config.yml,用编辑器打开此文件找到此文件中的deploy字段，按照以下配置deploy:</p>
+<pre class="line-numbers language-none"><code class="language-none">deploy:
+  type: git
+  repo: git@github.com:xinghan-666/xinghan-666.github.io.git
+  branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>repo在GitHub获取：<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/06.png"></p>
+<p>然后在命令行中执行</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<img src="/2023/05/29/hexo-shi-yong-wen-dang/07.png">
+
+<p>此时已经同步代码到GitHub了<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/08.png"></p>
+<h4 id="开启Github-Pages"><a href="#开启Github-Pages" class="headerlink" title="开启Github-Pages"></a>开启Github-Pages</h4><p>当你按照项目名是用户名.github.io的形式创建仓库的时候，GitHub应该是默认开启了github-pages。<br>进入仓库的设置，往下拉：<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/09.png"></p>
+<p>m</p>
+<h3 id="hexo-搭建博客后显示图片"><a href="#hexo-搭建博客后显示图片" class="headerlink" title="hexo 搭建博客后显示图片"></a>hexo 搭建博客后显示图片</h3><p>1.要添加图片，先 npm install 一个 hexo-asset-image 的依赖</p>
+<pre class="line-numbers language-none"><code class="language-none">npm install https://github.com/CodeFalling/hexo-asset-image --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>2.然后把_config.yml 中的 post_asset_folder 设为 true，这个配置的意思是每次 new post 一个博客，会增加一个和博客同名的文件夹。</p>
+<p>比如我将 post_asset_folder 设为 true 之后 hexo new post “first-page”之后新建了一篇文章，就会同时在 hexo/source/_post 文件夹下生成一个.md 文件和一个同名文件夹，文件夹存放文章中的图片<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/01.png"></p>
+<p>3.把图片放到.md 文件的同名文件夹”first-page”里，最后在.md 文件中引用图片</p>
+<pre class="line-numbers language-none"><code class="language-none">&lt;!-- 两种写法选一种 --&gt;
+![图片描述](./包名/01.jpg)
+&lt;img src="./包名/01.png" /&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>4.保存文件的修改之后，在命令行输入 hexo clean,接着输入 hexo g –d。在浏览器输入域名后查看相关文章，显示图片成功！！！</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo clean
+hexo g
+hexo d
+
+&lt;!-- 或者本地查看 --&gt;
+hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
                 
             </div>
@@ -844,7 +883,7 @@ git clone git@github.com:smackgg/hexo-theme-smackdown.git<span aria-hidden="true
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">46.9k</span>
+                        class="white-color">47.5k</span>
             
             
             
