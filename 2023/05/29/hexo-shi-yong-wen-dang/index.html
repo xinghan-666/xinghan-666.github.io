@@ -391,7 +391,7 @@ hexo in">
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    793
+                    812
                 </div>
                 
 
@@ -438,28 +438,32 @@ npm install # 这一步也可以不执行，init操作时已经安装了<span ar
 git clone git@github.com:smackgg/hexo-theme-smackdown.git<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <h4 id="激活"><a href="#激活" class="headerlink" title="激活"></a>激活</h4><p>把 hexo 配置文件 _config.yml 里的 theme 字段内容改为 hexo-theme-smackdown</p>
-<h3 id="博客Github部署"><a href="#博客Github部署" class="headerlink" title="博客Github部署"></a>博客Github部署</h3><h4 id="创建储存桶"><a href="#创建储存桶" class="headerlink" title="创建储存桶"></a>创建储存桶</h4><p>新建一个仓库，项目名一定要是用户名.github.io的形式(README.md可选可不选)<br>比如，我的用户名是xinghan-666，则我的仓库名必须是xinghan-666.github.io<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/02.png"></p>
-<h4 id="配置SSH-Key"><a href="#配置SSH-Key" class="headerlink" title="配置SSH-Key"></a>配置SSH-Key</h4><p>没有SSH-Key的话，git是不能将本地的代码部署到GitHub的。所以需要先创建SSH-Key。<br>本地生成秘钥：这里的用户名和邮箱仅做演示，根据自己的修改</p>
+<h3 id="博客-Github-部署"><a href="#博客-Github-部署" class="headerlink" title="博客 Github 部署"></a>博客 Github 部署</h3><h4 id="创建储存桶"><a href="#创建储存桶" class="headerlink" title="创建储存桶"></a>创建储存桶</h4><p>新建一个仓库，项目名一定要是用户名.github.io 的形式(README.md 可选可不选)<br>比如，我的用户名是 xinghan-666，则我的仓库名必须是 xinghan-666.github.io<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/02.png"></p>
+<h4 id="配置-SSH-Key"><a href="#配置-SSH-Key" class="headerlink" title="配置 SSH-Key"></a>配置 SSH-Key</h4><p>没有 SSH-Key 的话，git 是不能将本地的代码部署到 GitHub 的。所以需要先创建 SSH-Key。<br>本地生成秘钥：这里的用户名和邮箱仅做演示，根据自己的修改</p>
 <pre class="line-numbers language-none"><code class="language-none">git config --global user.name "geekmubai"
 git config --global user.email geekmubai@example.com
 ssh-keygen -t rsa -C "youremail@example.com"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>此时在用户文件夹下有一个隐藏文件夹，里面会有相关的秘钥文件。<br>以文本方式打开id_rsa.pub文件，将内容复制到GitHub。<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/04.png"></p>
-<p>标题随便起，将文本内容复制到Key，最后添加Key<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/05.png"></p>
-<h4 id="同步代码"><a href="#同步代码" class="headerlink" title="同步代码"></a>同步代码</h4><p>使用hexo deploy部署需要安装一个插件</p>
+
+<p>此时在用户文件夹下有一个隐藏文件夹，里面会有相关的秘钥文件。<br>以文本方式打开 id_rsa.pub 文件，将内容复制到 GitHub。<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/04.png"></p>
+<p>标题随便起，将文本内容复制到 Key，最后添加 Key<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/05.png"></p>
+<h4 id="同步代码"><a href="#同步代码" class="headerlink" title="同步代码"></a>同步代码</h4><p>使用 hexo deploy 部署需要安装一个插件</p>
 <pre class="line-numbers language-none"><code class="language-none">npm install hexo-deployer-git --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>找到blog目录下的配置文件_config.yml,用编辑器打开此文件找到此文件中的deploy字段，按照以下配置deploy:</p>
+
+<p>找到 blog 目录下的配置文件_config.yml,用编辑器打开此文件找到此文件中的 deploy 字段，按照以下配置 deploy:</p>
 <pre class="line-numbers language-none"><code class="language-none">deploy:
   type: git
   repo: git@github.com:xinghan-666/xinghan-666.github.io.git
   branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p>repo在GitHub获取：<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/06.png"></p>
+
+<p>repo 在 GitHub 获取：<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/06.png"></p>
 <p>然后在命令行中执行</p>
 <pre class="line-numbers language-none"><code class="language-none">hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
 <img src="/2023/05/29/hexo-shi-yong-wen-dang/07.png">
 
-<p>此时已经同步代码到GitHub了<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/08.png"></p>
-<h4 id="开启Github-Pages"><a href="#开启Github-Pages" class="headerlink" title="开启Github-Pages"></a>开启Github-Pages</h4><p>当你按照项目名是用户名.github.io的形式创建仓库的时候，GitHub应该是默认开启了github-pages。<br>进入仓库的设置，往下拉：<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/09.png"></p>
-<p>m</p>
+<p>此时已经同步代码到 GitHub 了<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/08.png"></p>
+<h4 id="开启-Github-Pages"><a href="#开启-Github-Pages" class="headerlink" title="开启 Github-Pages"></a>开启 Github-Pages</h4><p>当你按照项目名是用户名.github.io 的形式创建仓库的时候，GitHub 应该是默认开启了 github-pages。<br>进入仓库的设置，往下拉：<br><img src="/2023/05/29/hexo-shi-yong-wen-dang/09.png"></p>
+<p>此时打开网址就可以看到 Hexo 博客了</p>
 <h3 id="hexo-搭建博客后显示图片"><a href="#hexo-搭建博客后显示图片" class="headerlink" title="hexo 搭建博客后显示图片"></a>hexo 搭建博客后显示图片</h3><p>1.要添加图片，先 npm install 一个 hexo-asset-image 的依赖</p>
 <pre class="line-numbers language-none"><code class="language-none">npm install https://github.com/CodeFalling/hexo-asset-image --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
