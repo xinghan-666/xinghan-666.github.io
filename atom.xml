@@ -6,7 +6,7 @@
   <link href="https://xinghan-666.github.io/atom.xml" rel="self"/>
   
   <link href="https://xinghan-666.github.io/"/>
-  <updated>2023-05-30T09:02:06.898Z</updated>
+  <updated>2023-08-01T07:03:46.900Z</updated>
   <id>https://xinghan-666.github.io/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>REACT 面试题</title>
+    <link href="https://xinghan-666.github.io/2023/07/22/react-mian-shi-ti-zheng-li/"/>
+    <id>https://xinghan-666.github.io/2023/07/22/react-mian-shi-ti-zheng-li/</id>
+    <published>2023-07-22T03:04:21.000Z</published>
+    <updated>2023-08-01T07:03:46.900Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;REACT-面试题&quot;&gt;&lt;a href=&quot;#REACT-面试题&quot; class=&quot;headerlink&quot; title=&quot;REACT 面试题&quot;&gt;&lt;/a&gt;REACT 面试题&lt;/h1&gt;&lt;h2 id=&quot;1-如何创建-React-项目20qz-pylcc&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="REACT" scheme="https://xinghan-666.github.io/tags/REACT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>易错点整理</title>
+    <link href="https://xinghan-666.github.io/2023/07/15/yi-cuo-dian-zheng-li/"/>
+    <id>https://xinghan-666.github.io/2023/07/15/yi-cuo-dian-zheng-li/</id>
+    <published>2023-07-15T11:05:11.000Z</published>
+    <updated>2023-07-26T07:21:23.004Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;易错点整理&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+    <category term="易错点" scheme="https://xinghan-666.github.io/tags/%E6%98%93%E9%94%99%E7%82%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>个人简历</title>
@@ -41,26 +88,94 @@
   </entry>
   
   <entry>
-    <title>优医问诊-用户端 (React)</title>
-    <link href="https://xinghan-666.github.io/2023/05/29/you-yi-wen-zhen/"/>
-    <id>https://xinghan-666.github.io/2023/05/29/you-yi-wen-zhen/</id>
-    <published>2023-05-29T08:08:06.000Z</published>
-    <updated>2023-05-29T10:20:34.856Z</updated>
+    <title>VUE 问题</title>
+    <link href="https://xinghan-666.github.io/2023/05/21/vue-chang-jian-wen-ti-zheng-li/"/>
+    <id>https://xinghan-666.github.io/2023/05/21/vue-chang-jian-wen-ti-zheng-li/</id>
+    <published>2023-05-21T10:08:23.000Z</published>
+    <updated>2023-08-01T07:42:50.361Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;优医问诊是一项创新的医疗项目，旨在为患者提供方便快捷的在线医疗咨询和问诊服务。该项目通过结合先进的技术和医疗资源，为用户提供远程医疗服务，解决了传统医疗中就医难、就医贵的问题。&lt;/p&gt;
-&lt;h1 id=&quot;优医问诊-用户端-React&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;VUE-常见问题整理&quot;&gt;&lt;a href=&quot;#VUE-常见问题整理&quot; class=&quot;headerlink&quot; title=&quot;VUE 常见问题整理&quot;&gt;&lt;/a&gt;VUE 常见问题整理&lt;/h1&gt;&lt;h2 id=&quot;1-vue-优点？&quot;&gt;&lt;a href=&quot;#1-vue-优点？&quot;</summary>
         
       
     
     
     
     
-    <category term="React 优医问诊 文档" scheme="https://xinghan-666.github.io/tags/React-%E4%BC%98%E5%8C%BB%E9%97%AE%E8%AF%8A-%E6%96%87%E6%A1%A3/"/>
+    <category term="VUE" scheme="https://xinghan-666.github.io/tags/VUE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS面试题</title>
+    <link href="https://xinghan-666.github.io/2023/03/29/css-mian-shi-ti-zheng-li/"/>
+    <id>https://xinghan-666.github.io/2023/03/29/css-mian-shi-ti-zheng-li/</id>
+    <published>2023-03-29T06:09:24.000Z</published>
+    <updated>2023-07-20T02:30:53.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;CSS-面试题&quot;&gt;&lt;a href=&quot;#CSS-面试题&quot; class=&quot;headerlink&quot; title=&quot;CSS 面试题&quot;&gt;&lt;/a&gt;CSS 面试题&lt;/h1&gt;&lt;h2 id=&quot;01-盒模型宽度计算&quot;&gt;&lt;a href=&quot;#01-盒模型宽度计算&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="CSS面试题" scheme="https://xinghan-666.github.io/tags/CSS%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML面试题</title>
+    <link href="https://xinghan-666.github.io/2023/03/21/html-mian-shi-ti-zheng-li/"/>
+    <id>https://xinghan-666.github.io/2023/03/21/html-mian-shi-ti-zheng-li/</id>
+    <published>2023-03-21T09:21:38.000Z</published>
+    <updated>2023-07-20T02:31:25.691Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;HTML-面试题&quot;&gt;&lt;a href=&quot;#HTML-面试题&quot; class=&quot;headerlink&quot; title=&quot;HTML 面试题&quot;&gt;&lt;/a&gt;HTML 面试题&lt;/h1&gt;&lt;h2 id=&quot;01-HTML-语义化&quot;&gt;&lt;a href=&quot;#01-HTML-语义化&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="HTML面试题" scheme="https://xinghan-666.github.io/tags/HTML%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS面试题</title>
+    <link href="https://xinghan-666.github.io/2023/03/15/js-mian-shi-ti-zheng-li/"/>
+    <id>https://xinghan-666.github.io/2023/03/15/js-mian-shi-ti-zheng-li/</id>
+    <published>2023-03-15T11:05:11.000Z</published>
+    <updated>2023-07-20T02:43:45.892Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;JS-面试题&quot;&gt;&lt;a href=&quot;#JS-面试题&quot; class=&quot;headerlink&quot; title=&quot;JS 面试题&quot;&gt;&lt;/a&gt;JS 面试题&lt;/h1&gt;&lt;h2 id=&quot;01-变量赋值&quot;&gt;&lt;a href=&quot;#01-变量赋值&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JS面试题" scheme="https://xinghan-666.github.io/tags/JS%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
   </entry>
   
