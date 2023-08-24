@@ -391,14 +391,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.3k
+                    3.6k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    8 分
+                    13 分
                 </div>
                 
 
@@ -433,6 +433,132 @@
 <h2 id="4-数组的常用方法"><a href="#4-数组的常用方法" class="headerlink" title="4.数组的常用方法"></a>4.数组的常用方法</h2><p>数组是一种常见的数据结构，它可以存储多个相同类型的元素。在编程中，数组提供了许多方法来操作和处理数据。以下是一些常用的数组方法及其常见的应用场景：<br>1.push():在数组末尾添加一个或多个元素。常见场景：向数组中添加新的数据项。<br>2.pop():删除并返回数组的最后一个元素。常见场景：从数组中删除最后一个元素。<br>3.shift():删除并返回数组的第一个元素。常见场景：从数组中删除第一个元素。<br>4.unshift():在数组开头添加一个或多个元素。常见场景：向数组开头添加新的数据项。<br>5.concat():连接两个或多个数组，并返回一个新数组。常见场景：合并多个数组。<br>6.slice():返回数组的一部分，不修改原数组。常见场景：提取数组的子集。<br>7.splice():修改原数组，删除、替换或插入元素。常见场景：在指定位置进行数组元素的增删改操作。<br>8.indexOf():返回指定元素在数组中首次出现的索引，如果不存在则返回－1.常见场景：查找元素在数组中的位置。<br>9.includes():判断数组是否包含指定元素，返回布尔值。常见场景：判断元素是否存在于数组中。<br>10.join():将数组的所有元素转换为字符串，并使用指定的分隔符连接。常见场景：将数组转换为字符串。<br>11.map():遍历数组的每个元素，并通过回调函数对元素进行处理，返回一个新数组。常见场景：对数组中的每个元素进行操作或转换。<br>12.filter():遍历数组的每个元素，并通过回调函数对元素进行过滤，返回一个新数组。常见场景：根据条件筛选出符合要求的元素。<br>13.reduce():遍历数组的每个元素，并通过回调函数对元素进行累计计算，返回一个值。常见场景：对数组元素进行求和、求平均值等操作。</p>
 <h2 id="5-let-和-var-的区别"><a href="#5-let-和-var-的区别" class="headerlink" title="5.let 和 var 的区别"></a>5.let 和 var 的区别</h2><p>在 JavaScript 中，let 和 var 都是用来声明变量的关键字，但是它们有一些不同的特性。<br>1、变量作用域：let 声明的变量是块级作用域，即只在当前代码块中有效，而 var 声明的变量是函数作用域或全局作用域，即在函数内部或全局范围内都有效。<br>2、变量提升：var 声明的变量会被提升到函数或全局作用域的顶部，即可以在声明之前使用，而 let 声明的变量不会被提升，即必须先声明后使用。<br>3、重复声明：在同一个作用域内，使用 var 声明同名变量会被覆盖，而使用 let 声明同名变量会报错。<br>4、循环中的使用：在 for 循环中使用 var 声明的变量会存在变量提升和变量共享的问题，而使用 let 声明的变量则不会。</p>
 <p>总之，let 更符合块级作用域的概念，避免了变量提升和重复声明等问题，使代码更加健壮和可维护</p>
+<h2 id="6-css-的盒模型"><a href="#6-css-的盒模型" class="headerlink" title="6.css 的盒模型"></a>6.css 的盒模型</h2><p>css 的盒模型有 2 种，分别为：<br>1、W3c 标准的盒子模型（标准盒模型），width 和 height 指的是内容区域的宽度和高度；<br>2、IE 标准的盒子模型（怪异盒模型），width 和 height 指的是内容区域、边框、内边距总的宽度和高度。</p>
+<h2 id="7-什么是深拷贝和浅拷贝"><a href="#7-什么是深拷贝和浅拷贝" class="headerlink" title="7.什么是深拷贝和浅拷贝"></a>7.什么是深拷贝和浅拷贝</h2><p>深拷贝和浅拷贝的意思分别是：深拷贝是指拷贝对象的具体内容，二内存地址是自主分配的，拷贝结束之后俩个对象虽然存的值是一样的，但是内存地址不一样，俩个对象页互相不影响，互不干涉。浅拷贝是指对内存地址的复制，让目标对象指针和源对象指向同一片内存空间。</p>
+<h4 id="浅拷贝"><a href="#浅拷贝" class="headerlink" title="浅拷贝"></a>浅拷贝</h4><p>浅拷贝对内存地址的复制，让目标对象指针和源对象指向同一片内存空间。注意：当内存销毁的时候，只想对象的指针，必须重新定义，才能够使用</p>
+<p>代码：</p>
+<pre class="line-numbers language-none"><code class="language-none">var a = {x:1}
+
+var b = a
+
+console.log(b);//{x:1}
+
+b.x = 2
+
+console.log(b)//{x:2}
+
+console.log(a)//{x:2}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>浅拷贝是一个传址,也就是把 a 的值赋给 b 的时候同时也把 a 的址赋给了 b，当 b（a）的值改变的时候，a（b）的值同时也会改变</p>
+<h4 id="深拷贝"><a href="#深拷贝" class="headerlink" title="深拷贝"></a>深拷贝</h4><p>深拷贝是指拷贝对象的具体内容，二内存地址是自主分配的，拷贝结束之后俩个对象虽然存的值是一样的，但是内存地址不一样，俩个对象页互相不影响，互不干涉。</p>
+<p>深拷贝的几种方法：</p>
+<p>1、JSON 内置的方法</p>
+<pre class="line-numbers language-none"><code class="language-none">var a={x:1}
+
+var b=JSON.parse(JSON.stringfiy(a))
+
+console.log(b)//{x:1}
+
+b.x=2
+
+console.log(b)//{x:2}
+
+console.log(a)//{x:1}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>原理：该方法是用 JSON.parse 将对象转为字符串，然后在用 JSON.stringify 转回对象 json 字符串转换为对象的时候，会自己去构建新的内存地址存放数据</p>
+<p>注：如果对象属性为 function，因为 JSON 格式字符串不支持 function，在构建的时候会自动删除</p>
+<p>2、Object 的内置方法 assign</p>
+<pre class="line-numbers language-none"><code class="language-none">var a={x:1}
+
+var b=Object.assign({}, a);
+
+console.log(b);    //{x:1}
+
+b.x = 2;
+
+console.log(b);    //{x:2}
+
+console.log(a);    //{x:1}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>原理：该方法是用 Object.assign 对对象进行拼接， 将后续对象的内容插入到第一个参数指定的对象，不会修改第一个参数之后的对象，而我们将第一个对象指定为一个匿名空对象，实现深拷贝</p>
+<p>注：对象嵌套层次过深，超过 2 层，就会出现浅拷贝的状况，比如 echarts 组件的 option 对象</p>
+<p>3、递归实现</p>
+<pre class="line-numbers language-none"><code class="language-none">function clone(Obj) {//首先，然后确定递归的回调，最终到达对象或者数组的末端，达到深拷贝的要求。
+
+var newObj;
+
+if (Obj instanceof Array) { //确定类型
+
+newObj = [];  // 创建一个空的数组
+
+var i = Obj.length;
+
+while (i--) {
+
+newObj[i] = clone(Obj[i]); //递归回调
+
+}
+
+return newObj;
+
+} else if (Obj instanceof Object){ //确定类型
+
+newObj = {};  // 创建一个空对象
+
+for (var k in Obj) {  // 为这个对象添加新的属性
+
+newObj[k] = clone(Obj[k]); //递归回调
+
+}
+
+return newObj; //结束函数完成深拷贝
+
+}else{
+
+return Obj; //结束函数完成深拷贝
+
+}
+
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>或者</p>
+<pre class="line-numbers language-none"><code class="language-none">
+function extendDeepCopy(obj,newobj){
+
+var newobj=newobj||{};
+
+for(var i in obj){
+
+if(typeof obj[i]=='object'){ //确定类型
+
+newobj[i]=(obj[i].constructor==="Array")?[]:{};
+
+extendDeepCopy(obj[i],newobj[i]); //递归回调
+
+}else{
+
+newobj[i]=obj[i];
+
+}
+
+}
+
+return newobj;//结束函数完成深拷贝
+
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<h2 id="8-css选择器优先级顺序"><a href="#8-css选择器优先级顺序" class="headerlink" title="8.css选择器优先级顺序"></a>8.css选择器优先级顺序</h2><p>一、css选择器优先级</p>
+<p>不同级别<br>1、在属性后面使用 !important 会覆盖页面内任何位置定义的元素样式。<br>2、作为style属性写在元素内的样式<br>3、id选择器<br>4、类选择器<br>5、元素选择器<br>6、通配符选择器<br>7、浏览器自定义或继承<br>总结排序：!important &gt; 行内样式 &gt; ID选择器 &gt; 类选择器 &gt; 元素选择器 &gt; 通配符选择器 &gt; 继承 &gt; 浏览器默认属性</p>
+<p>同一级别<br>(1) 同一级别中后写的会覆盖先写的样式<br>(2) 同一级别css引入方式不同，优先级不同<br>总结排序：内联(行内)样式 &gt; 内部样式表 &gt; 外部样式表 &gt; 导入样式(@import)。</p>
+<p>对于选择器优先级，还可以通过计算权重值来比较。</p>
+<p>例1、<br>test.css文件<br><img src="/2023/07/15/yi-cuo-dian-zheng-li/01.png"><br>html文件<br><img src="/2023/07/15/yi-cuo-dian-zheng-li/02.png"><br>执行结果：span最后为红色。<br>说明css引入方式优先级：内部样式表 &gt; 外部样式表</p>
+<p>例2、<br><img src="/2023/07/15/yi-cuo-dian-zheng-li/03.png"><br>执行结果：span最后为黄色。<br>说明css引入方式优先级：内联(行内)样式 &gt; 内部样式表 &gt; 外部样式表</p>
+<p>二、复杂选择器优先级，后代选择器优先级多种情况<br>有时候当我们写样式的时候会用到好多个后代样式，那么优先级的情况是什么情况呢。来看几个例子。<br>我这里举的例子有点少，如果你在学习，你可以多自己写几个例子看看效果。<br>1、 id个数多的优先级高<br><img src="/2023/07/15/yi-cuo-dian-zheng-li/04.png"></p>
+<p>2、id个数相等的看class个数，class越多优先级越高<br><img src="/2023/07/15/yi-cuo-dian-zheng-li/05.png"></p>
+<p>3、id和class个数相等，看元素个数，个数越多优先级越高。<br><img src="/2023/07/15/yi-cuo-dian-zheng-li/06.png"></p>
+<p>4、优先级相同，后面的样式会覆盖前面的样式， 不分先后顺序，只看选择器类型和个数。<br><img src="/2023/07/15/yi-cuo-dian-zheng-li/07.png"></p>
 
                 
             </div>
@@ -857,7 +983,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">55.4k</span>
+                        class="white-color">56.8k</span>
             
             
             
